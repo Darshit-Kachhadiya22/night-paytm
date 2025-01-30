@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paytm Ticket</title>
+    <script
+      src="https://example.com/fontawesome/vVERSION/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="pb-19">
+      <div class="flex justify-between items-center">
+        <a href="https://paytm.com/">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 25 25"
+            class="w-6"
+          >
+            <path
+              style="fill: #232326"
+              d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
+              data-name="Left"
+            />
+          </svg>
+        </a>
+
+        <img src="paytm8487.jpg" alt="Paytm Logo" class="logo" />
+        <a href="https://paytm.com/care/customer-care">
+          <p class="text-blue-300">Help</p>
+        </a>
+      </div>
+
+      <div class="ticket">
+        <img src="download.png" alt="Paytm Logo" class="sitilink p-1" />
+
+        <p class="text-2xl font-semibold mt-4">Utran R.O.B... → Maangadh</p>
+        <p class="mt-2 text-gray-400">1 Adult Ticket</p>
+        <img
+          src="Screenshot 2025-01-28 at 3.15.48 PM.png"
+          alt="QR Code"
+          class="m-auto mt-4 boy rounded-full"
+        />
+
+        <div class="flex justify-center items-center mt-4">
+          <p class="price">₹10</p>
+          <img src="channels4_profile-removebg-preview.png" class="w-10 ml-2" />
+        </div>
+        <p>TICKET BOOKED SUCCESSFULLY</p>
+        <p id="time" class="pt-4"></p>
+        <p class="border-dotted border-gray-300 border mt-4"></p>
+
+        <div class="border border-gray-300 p-2 m-4 mt-4 rounded-md bg-white">
+          <p>Your ticket is valid for</p>
+          <p class="timer" id="countdown">01 : 30 : 00</p>
+          <p>Hours Minutes Seconds</p>
+          <a href="viewticket.html">
+            <button
+              class="bg-blue-400 w-full rounded-md h-full text-white p-3 mt-4 m-auto"
+            >
+              View Your Tickets
+            </button>
+          </a>
+        </div>
+        <p class="border-4 border-blue-400 mt-4"></p>
+      </div>
+
+      <div
+        class="footer mx-auto mt-10 border border-gray-200 shadow-lg rounded-lg"
+      >
+        <div class="flex justify-between">
+          <h2>Trip Details</h2>
+          <img src="arrow-up-svgrepo-com.svg" class="w-6" />
+        </div>
+        <p class="pt-4 text-gray-500">Operator</p>
+
+        <p>Surat Sitilink</p>
+        <p class="border-dotted border-gray-300 border mt-4"></p>
+
+        <h1 class="mt-4">Order ID: 24772608630 <a href="copy">copy</a></h1>
+        <h6 class="mt-4 text-sm">
+          For any queries regarding QR Ticket, please contact Surat Sitilink
+          with Order Id.
+        </h6>
+      </div>
+
+      <div
+        class="m-auto p-8 w-[90%] border border-gray-200 shadow-lg mx-auto mt-8 rounded-lg"
+      >
+        <h2>Payment Details</h2>
+        <h4 class="mt-4 text-gray-400">FARE BREAKUP</h4>
+
+        <div class="flex justify-between mt-4 border-b-1 border-gray-200 py-2">
+          <p class="">1 X Adult</p>
+          <p id="time" class="pt-4">₹10</p>
+        </div>
+
+        <div
+          class="flex justify-between mt-4 border-b-1 border-gray-200 border-dotted py-2"
+        >
+          <p class="">Total</p>
+          <p>₹10</p>
+        </div>
+        <p class="mt-5 text-gray-400">PAYMENT MODE</p>
+        <div class="flex justify-between mt-4 py-2">
+          <p class="">UPI Linked Bank Account</p>
+          <p>₹10</p>
+        </div>
+        <p>Transaction ID : 503055838998</p>
+      </div>
+
+      <div class="footer-menu">
+        <div>
+          <a
+            href="https://paytm.com/offer/upto-rs1500-cashback"
+            target="_blank"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+              <path
+                d="M 16 2.59375 L 15.28125 3.28125 L 2.28125 16.28125 L 3.71875 17.71875 L 5 16.4375 L 5 28 L 14 28 L 14 18 L 18 18 L 18 28 L 27 28 L 27 16.4375 L 28.28125 17.71875 L 29.71875 16.28125 L 16.71875 3.28125 Z M 16 5.4375 L 25 14.4375 L 25 26 L 20 26 L 20 16 L 12 16 L 12 26 L 7 26 L 7 14.4375 Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+
+          <p>Home</p>
+        </div>
+        <div>
+          <a
+            href="https://paytm.com/offer/upto-rs1500-cashback"
+            target="_blank"
+          >
+            <img
+              class="cashback m-auto"
+              src="Screenshot_2025-01-29_at_4.10.48_PM-removebg-preview.png"
+            />
+
+            <p>Cashback</p>
+          </a>
+        </div>
+        <div>
+          <a href="https://paytm.com/care/customer-care" target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <path
+                d="M 24 3.9980469 C 12.972292 3.9980469 4 12.970339 4 23.998047 C 4 27.273363 4.8627078 30.334853 6.2617188 33.064453 L 4.09375 40.826172 C 3.5887973 42.629575 5.3719261 44.41261 7.1757812 43.908203 L 14.943359 41.740234 C 17.670736 43.136312 20.727751 43.998047 24 43.998047 C 35.027708 43.998047 44 35.025755 44 23.998047 C 44 12.970339 35.027708 3.9980469 24 3.9980469 z M 24 6.9980469 C 33.406292 6.9980469 41 14.591755 41 23.998047 C 41 33.404339 33.406292 40.998047 24 40.998047 C 20.998416 40.998047 18.190601 40.217527 15.742188 38.853516 A 1.50015 1.50015 0 0 0 14.609375 38.71875 L 7.2226562 40.779297 L 9.2851562 33.396484 A 1.50015 1.50015 0 0 0 9.1503906 32.261719 C 7.7836522 29.811523 7 27.002565 7 23.998047 C 7 14.591755 14.593708 6.9980469 24 6.9980469 z M 17.240234 15 C 16.921234 15 16.405797 15.119656 15.966797 15.597656 C 15.528797 16.073656 14.294922 17.228125 14.294922 19.578125 C 14.294922 21.928125 16.005141 24.197578 16.244141 24.517578 C 16.482141 24.834578 19.547344 29.812562 24.402344 31.726562 C 28.436344 33.316563 29.256812 32.999922 30.132812 32.919922 C 31.008813 32.841922 32.959422 31.766391 33.357422 30.650391 C 33.755422 29.534391 33.755672 28.579813 33.638672 28.382812 C 33.519672 28.183812 33.200656 28.063219 32.722656 27.824219 C 32.245656 27.585219 29.898937 26.430484 29.460938 26.271484 C 29.022938 26.112484 28.702766 26.031766 28.384766 26.509766 C 28.066766 26.987766 27.152047 28.062859 26.873047 28.380859 C 26.594047 28.700859 26.315891 28.740953 25.837891 28.501953 C 25.358891 28.260953 23.822094 27.757859 21.996094 26.130859 C 20.576094 24.865859 19.620797 23.302219 19.341797 22.824219 C 19.063797 22.348219 19.311781 22.086609 19.550781 21.849609 C 19.765781 21.635609 20.028578 21.292672 20.267578 21.013672 C 20.504578 20.734672 20.583188 20.53675 20.742188 20.21875 C 20.901188 19.90175 20.822125 19.621813 20.703125 19.382812 C 20.584125 19.143813 19.655469 16.780938 19.230469 15.835938 C 18.873469 15.041938 18.49725 15.024719 18.15625 15.011719 C 17.87825 15.000719 17.558234 15 17.240234 15 z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+
+          <p>Help</p>
+        </div>
+      </div>
+    </div>
+    <script src="timer.js"></script>
+  </body>
+</html>

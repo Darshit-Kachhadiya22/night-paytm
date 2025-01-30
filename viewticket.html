@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paytm Ticket</title>
+    <script
+      src="https://example.com/fontawesome/vVERSION/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="pb-8">
+      <div
+        class="flex gap-4 justify-between m-6 ml-1 items-center align-center"
+      >
+        <div class="flex justufy-start gap-4">
+          <a href="index.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 25 25"
+              class="w-6"
+            >
+              <path
+                style="fill: #232326"
+                d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
+                data-name="Left"
+              />
+            </svg>
+          </a>
+          <div
+            class="bg-blue-100 rounded-full w-12 h-12 flex justify-center items-center"
+          >
+            <img src="ticket-svgrepo-com.svg" alt="Paytm Logo" class="w-6" />
+          </div>
+          <h2 class="font-bold">1 QR Ticket</h2>
+        </div>
+        <a href="https://paytm.com/care/customer-care">
+          <p class="flex justify-end align-center justify-center text-blue-300">
+            Help
+          </p>
+        </a>
+      </div>
+
+      <div class="flex justify-center">
+        <h1 class="flex justify-center font-medium" id="heading">
+          Utran R.O.B... → Maangadh
+        </h1>
+      </div>
+
+      <div>
+        <p class="flex justify-center mt-5">
+          Scan this QR at Entry & Exit Points
+        </p>
+        <img
+          src="qr-code.svg"
+          alt="QR Code"
+          class="qr flex justify-center m-auto mt-4"
+        />
+        <p class="flex justify-center m-auto">Your ticket is valid for</p>
+        <h1
+          class="flex justify-center mt-4 text-3xl font-bold h-4 timer"
+          id="countdown"
+        >
+          01 : 30 : 00
+        </h1>
+        <!-- <p class="timer" id="countdown">01 : 16 :56</p> -->
+        <p class="flex justify-center mt-8">Hours Minutes Seconds</p>
+      </div>
+      <div
+        class="m-auto p-8 w-[90%] border border-gray-200 shadow-lg mx-auto mt-8 rounded-md"
+      >
+        <div class="flex justify-between">
+          <h2>Ticket Details</h2>
+          <img src="arrow-up-svgrepo-com.svg" class="w-6" />
+        </div>
+        <div class="flex justify-between mt-4 border-b-1 border-gray-200 py-2">
+          <p class="">Issued On</p>
+          <p id="time"></p>
+        </div>
+
+        <div class="flex justify-between mt-4 border-b-1 border-gray-200 py-2">
+          <p class="">Order ID</p>
+          <p>24772608630</p>
+        </div>
+
+        <div class="flex justify-between mt-4 border-b-1 border-gray-200 py-2">
+          <p class="">Order Item ID</p>
+          <p>32554312345</p>
+        </div>
+
+        <div class="flex justify-between mt-4">
+          <p class="">Ticket Type</p>
+          <p>1 Adult</p>
+        </div>
+      </div>
+    </div>
+    <script src="timer.js"></script>
+  </body>
+</html>
