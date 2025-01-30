@@ -2,7 +2,7 @@
 
 function updateDate() {
     let now = new Date();
-    now.setMinutes(now.getMinutes() - 30); // Subtract 30 minutes
+    now.setMinutes(now.getMinutes() - 20); // Subtract 30 minutes
 
     let options = {
         day: "2-digit",
@@ -56,4 +56,4 @@ function startCountdown(duration) {
 }
 
 updateDate();
-startCountdown(1 * 3600 + 30 * 60 + 0); // Starts from 1:30:00
+startCountdown(1 * 3600 + 40 * 60 + 0); // Starts from 1:30:00
